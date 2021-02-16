@@ -1,3 +1,3 @@
 FROM docker/compose
 RUN apk update && apk upgrade
-RUN apk add make
+RUN apk add make openssh-client
